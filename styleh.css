@@ -1,0 +1,154 @@
+#srvc_bnr img{
+  height: auto;
+  width: 100%;
+}
+.srvcs_orsrvcs p{
+  font-size: 30px;
+color: #ff0101;
+font-family: "Open Sans";
+font-weight: 700;
+}
+
+.srvcs_orsrvcs p:nth-child(1){
+  padding: 5% 0 0 0;
+}
+
+.srvcs_orsrvcs p:nth-child(2){
+font-size: 16px;
+color: #999999;
+font-family: "Open Sans";
+font-weight: 400;
+font-style: italic;
+}
+
+.srvcs_orsrvcs p:nth-child(2)::after{
+content: '';
+display: inline-block;
+width: 5%;
+background-color: red;
+height: 3px;
+margin-left: 1%;
+}
+
+
+
+
+
+.ofr_srvc p{
+  font-size: 30px;
+color: #ff0101;
+font-family: "Open Sans";
+font-weight: 700;
+}
+
+.ofr_srvc p:nth-child(1){
+  padding: 5% 0 0 0;
+}
+
+.ofr_srvc p:nth-child(2){
+font-size: 16px;
+color: #999999;
+font-family: "Open Sans";
+font-weight: 400;
+font-style: italic;
+}
+
+.ofr_srvc p:nth-child(2)::after{
+content: '';
+display: inline-block;
+width: 5%;
+background-color: red;
+height: 3px;
+margin-left: 1%;
+}
+
+
+.sldr_srcv img{
+   height: auto;
+  width: 100%;
+
+}
+
+@media  only screen and (max-width: 480px) {
+
+.srvcs_orsrvcs p{
+  font-size: 24px;
+}
+
+
+.ofr_srvc p{
+  font-size: 24px;
+}
+
+.ofr_srvc p:nth-child(2){
+font-size: 14px;
+}
+
+.srvcs_orsrvcs p:nth-child(2){
+font-size: 14px;
+
+}
+}
+
+
+
+
+.for-padding1{
+  padding: 0px;
+     margin: 0px 0px 85px 0px;
+}
+
+.for-center-sec1{
+  text-align: center;
+  padding: 0px 0px 20px;
+  margin-top: 40px;
+}
+
+.etc-section1 {
+color: black; 
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #999999;
+    min-height: 450px;
+}
+
+
+.etc-section1 h3 {
+       text-align: center;
+       font-size: 15px;
+    word-break: break-all;
+       padding: 10% 1% 1% 1%;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.etc-section1 p {
+      font-size: 15px;
+    font-family: lato;
+   word-break: break-all;
+    text-align: center;
+       padding: 3% 5%;
+  }
+
+  .etc-section1 img{
+  height: auto;
+  width: 100%;
+ 
+}
+
+
+
+#ofr_btn a{
+  color: #4dd7f3;
+}
+
+
+
+#ofr_btn::after{
+  content: '';
+  display: block;
+  width: 35%;
+  background-color: red;
+  height: 3px;
+  margin: 2% auto;
+}
